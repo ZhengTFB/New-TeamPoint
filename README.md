@@ -2,6 +2,7 @@
 更全面、更方便、更优雅
 ## 新一代积分程序
 New-TeamPoint
+![图标](https://github.com/zhengtfb/New-TeamPoint/blob/main/icon.ico)
 ### 0.总体介绍
 - 创作日期：2023/5/2--[正钛汾钸](https://github.com/zhengtfb)
 - 支持[记录个人积分](#jump_1)
@@ -31,6 +32,7 @@ lunch_break_personnel栏，控制被计分人员，且在下来列表中显示�
 - 自动计算每个人累计积分，分析前三名，并显示在界面下方
 - 根据json文件jingshi栏，生成总分低于该分数的人，显示在界面下方，予以警告
 ### 4.自动分析并生成每个人积分变化的折线图
+![统计界面](https://github.com/zhengtfb/New-TeamPoint/blob/main/%E7%BB%9F%E8%AE%A1%E7%95%8C%E9%9D%A2.JPG)
 <a id="jump_4"></a>
 - 通过cl函数，计算每人每天得分
 - 自动识别不支持的时间格式，防止程序阻塞
