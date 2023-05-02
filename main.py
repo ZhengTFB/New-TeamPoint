@@ -387,19 +387,19 @@ class Win(WinGUI):
             ph()
             jindu_bar.step(99)
             self.widget_dic["tk_label_huanying"].configure(text="生成成功！")
-            # 在1000毫秒（即1秒）后，调用lambda表达式更新文本
+            # 在1500毫秒（即1秒）后，调用lambda表达式更新文本
             self.widget_dic["tk_label_huanying"].after(1500, lambda: self.widget_dic["tk_label_huanying"].configure(text="你好，欢迎使用积分程序"))
             
       else:
             self.widget_dic["tk_label_huanying"].configure(text="密钥错误，请重新输入")
-           # 在1000毫秒（即1秒）后，调用lambda表达式更新文本
+           # 在1500毫秒（即1秒）后，调用lambda表达式更新文本
             self.widget_dic["tk_label_huanying"].after(1500, lambda: self.widget_dic["tk_label_huanying"].configure(text="你好，欢迎使用积分程序"))
 
             
         
     def qc(self,evt):
         self.widget_dic["tk_label_huanying"].configure(text="暂不支持，请手动清除")
-        # 在1000毫秒（即1秒）后，调用lambda表达式更新文本
+        # 在1500毫秒后，调用lambda表达式更新文本
         self.widget_dic["tk_label_huanying"].after(1500, lambda: self.widget_dic["tk_label_huanying"].configure(text="你好，欢迎使用积分程序"))
 
         
